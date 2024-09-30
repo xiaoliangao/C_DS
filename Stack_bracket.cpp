@@ -43,7 +43,7 @@ void Pop(Stack &s, char &c)
     c = s.data[s.top--];
 }
 
-bool Match(char *exp)
+bool Match(char exp[])
 {
     Stack s;
     InitStack(s);
